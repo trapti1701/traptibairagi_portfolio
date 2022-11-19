@@ -1,0 +1,43 @@
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: lightgrey;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.container-fluid {
+  position: fixed;
+}
+
+.btn-primary {
+  background-color: black;
+  border: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+a:hover{
+  color:orange;
+}
+
+a:active{
+  text-decoration: underline;
+}
+
+li{
+  list-style: none;
+  margin-bottom: 30px;
+}
